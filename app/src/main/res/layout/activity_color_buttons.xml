@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pankaj.helloworld.ColorButtons">
+
+    <TextView
+        android:id="@+id/textHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Horizontaly Aligned Buttons"/>
+    <Button
+        android:id="@+id/btnPink"
+        android:layout_below="@id/textHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnPink"
+        android:layout_marginTop="20dp"
+        android:onClick="OnbtnPink"
+        android:text="Pink" />
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_below="@id/textHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnPink"
+        android:layout_marginTop="20dp"
+        android:onClick="OnbtnGreen"
+        android:text="Green" />
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_below="@id/textHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnGreen"
+        android:layout_marginTop="20dp"
+        android:onClick="OnbtnBlue"
+        android:text="Blue" />
+
+
+    <TextView
+        android:id="@+id/textVertical"
+        android:layout_below="@id/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Vertically Aligned Buttons"/>
+    <Button
+        android:id="@+id/btnPink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textVertical"
+        android:layout_marginTop="20dp"
+        android:onClick="OnbtnPink"
+        android:text="Pink" />
+    <Button
+        android:id="@+id/btnGreen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPink2"
+        android:layout_marginTop="5dp"
+        android:onClick="OnbtnGreen"
+        android:text="Green" />
+    <Button
+        android:id="@+id/btnBlue2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnGreen2"
+        android:layout_marginTop="5dp"
+        android:onClick="OnbtnBlue"
+        android:text="Blue" />
+</RelativeLayout>

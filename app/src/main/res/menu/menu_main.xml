@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/HelloWorldMenu"
+        android:title="Hello World" />
+    <item
+        android:id="@+id/LifeCycle"
+        android:title="Life Cycle " />
+    <item
+        android:id="@+id/sendIntentMenu"
+        android:title="Send Intent" />
+    <item
+        android:id="@+id/spinnerMenu"
+        android:title="Spinner" />
+    <item
+        android:id="@+id/radioButtonMenu"
+        android:title="Radio Button" />
+    <item
+        android:id="@+id/colorButtonsMenu"
+        android:title="Color Buttons" />
+    <item
+        android:id="@+id/loginMenu"
+        android:title="Login" />
+    <item
+        android:id="@+id/Database"
+        android:title="DataBase" />
+
+
+
+
+
+</menu>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="activity_name">Radio_button</string>
+    <string name="title_message">Select One Course </string>
+    <string name="comp_sc">Computer Science</string>
+    <string name="phy_hons">Physics Honors</string>
+    <string name="eng_hons">English Honors</string>
+    <string name="economics_hons">Economics Honors</string>
+    <string name="hello">Hello World! Blip!</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_life_cycle">LifeCycleActivity</string>
+    <string name="title_activity_radio_button">RadioButtonActivity</string>
+    <string name="title_activity_sqlite_test">SqliteTestActivity</string>
+    <string-array name="states">
+        <item>--</item>
+        <item>Punjab</item>
+        <item>Haryana</item>
+        <item>Kerala</item>
+    </string-array>
+    <string-array name="punjab_cities">
+        <item>Pathankot</item>
+        <item>Ludhiana</item>
+        <item>Jalandhar</item>
+    </string-array>
+    <string-array name="haryana_cities">
+        <item>Chandigarh</item>
+        <item>Hissar</item>
+        <item>Rohtak</item>
+    </string-array>
+    <string-array name="kerala_cities">
+        <item>Trivananthpuram</item>
+        <item>Kochi</item>
+        <item>Munnar</item>
+    </string-array>
+    <string name="spin_prompt">Pick a state</string>
+    <string name="title_activity_hello_world">HelloWorld</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_send_intent">SendIntent</string>
+    <string name="title_activity_get_intent">getIntent</string>
+    <string name="title_activity_send_intent_test">SendIntentTest</string>
+    <string name="title_activity_get_intent_test">GetIntentTest</string>
+    <string name="chooser_title">Choose an app</string>
+
+    <string-array name="punjab_cities_images">
+        <item>@drawable/pathankot</item>
+        <item>@drawable/jalandhar</item>
+        <item>@drawable/ludhiana</item>
+    </string-array>
+    <string name="title_activity_color_buttons">color_buttons</string>
+
+</resources>
