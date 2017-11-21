@@ -14,11 +14,14 @@ public class ColorButtons extends MainActivity {
         setContentView(R.layout.activity_color_buttons);
     }
 
-    public void OnbtnPink(View view){
-        View root = view.getRootView();
-        root.setBackgroundColor(getResources().getColor(R.color.pink));
-        //setActivityColor(R.color.pink);
-    }
+//    public void OnbtnPink(View view){
+//        View root = view.getRootView();
+//        root.setBackgroundColor(getResources().getColor(R.color.pink));
+//        //setActivityColor(R.color.pink);
+//    }
+public void OnbtnPink(View view){
+    setActivityColor(getResources().getColor(R.color.pink));
+}
 
     public void OnbtnGreen(View view){
         setActivityColor(getResources().getColor(R.color.green));

@@ -32,10 +32,6 @@ public class RadioButton extends AppCompatActivity {
                     final_result.setText("Dr Vandana Gupta ");
                     final_result.setEnabled(true);
                 }
-                else
-                {
-                    final_result.setEnabled(false);
-                }
                 break;
 
             case R.id.course_phy_hons:
@@ -43,10 +39,6 @@ public class RadioButton extends AppCompatActivity {
                 {
                     final_result.setText("Dr Rachna Kumar ");
                     final_result.setEnabled(true);
-                }
-                else
-                {
-                    final_result.setEnabled(false);
                 }
                 break;
 
@@ -56,10 +48,6 @@ public class RadioButton extends AppCompatActivity {
                     final_result.setText("Mrs Monica Zutshi ");
                     final_result.setEnabled(true);
                 }
-                else
-                {
-                    final_result.setEnabled(false);
-                }
                 break;
 
             case R.id.course_economics_hons:
@@ -68,10 +56,7 @@ public class RadioButton extends AppCompatActivity {
                     final_result.setText("Dr Anjali Bansal ");
                     final_result.setEnabled(true);
                 }
-                else
-                {
-                    final_result.setEnabled(false);
-                }
+
                 break;
 
         }

@@ -1,6 +1,7 @@
 package com.pankaj.helloworld;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,20 +26,21 @@ public class SendIntentTest extends MainActivity {
     }
 
     public void SendImplicitIntentFn(View view){
+        String url = "http://google.com";
         Intent sendImplicit = new Intent();
-        sendImplicit.setAction(Intent.ACTION_SEND);
-        sendImplicit.putExtra(Intent.EXTRA_TEXT, SendIntentText.getText().toString());
-        sendImplicit.setType("text/plain");
-        // This says something like "Share this photo with"
+        sendImplicit.setAction(Intent.ACTION_VIEW);
+        sendImplicit.setData(Uri.parse("http://google.com"));
         String title = getResources().getString(R.string.chooser_title);
+        startActivity(sendImplicit);
 // Create intent to show the chooser dialog
         Intent chooser = Intent.createChooser(sendImplicit, title);
 
 
 // Verify that the intent will resolve to an activity
-        if (sendImplicit.resolveActivity(getPackageManager()) != null) {
-            startActivity(chooser);
-        }
+//        if (sendImplicit.resolveActivity(getPackageManager()) != null) {
+//            Uri.parse("http://sscbs.du.ac.in/");
+//            startActivity(chooser);
+//        }
     }
 
     @Override
